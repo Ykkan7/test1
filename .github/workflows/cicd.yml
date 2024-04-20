@@ -67,6 +67,6 @@ jobs:
           script: |
            cd $HOME
            docker compose down
-           docker pull ghcr.io/${{ github.repository }}:main
+           docker pull ghcr.io/ykkan7/test1:main
            docker compose up -d
 
